@@ -12,6 +12,8 @@ if num < 100:
         x = x + 1
 
     if c == 2:
-        print(num,"es primo")    
+        print(num,"es primo")
+    else:
+        print(num,"no es primo")
 else:
     print("no es menor a 100")
