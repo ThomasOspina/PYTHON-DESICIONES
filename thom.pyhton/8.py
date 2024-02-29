@@ -21,11 +21,10 @@ if (num > 9) and (num < 99):
 else:
     print("no tiene dos digitos")        
 
-print(c1,c2)
 if c1 == 2:
     print("el primer digito es primo")
 else:
-    print("el segundo digito no es primo")
+    print("el primer digito no es primo")
 
 if c2 == 2:
     print("el segundo digito es primo")
