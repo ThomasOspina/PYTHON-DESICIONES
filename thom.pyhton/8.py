@@ -13,6 +13,7 @@ if (num > 9) and (num < 99):
         if dig1 % x == 0:
             c1 = c1 + 1
         x = x + 1
+
     while y <= dig2:
         if dig2 % y == 0:
             c2 = c2 + 1
@@ -20,13 +21,13 @@ if (num > 9) and (num < 99):
 else:
     print("no tiene dos digitos")        
 
-if c1 == 2 and c2 == 2:
-    print("los dos digitos son primos")
+print(c1,c2)
+if c1 == 2:
+    print("el primer digito es primo")
 else:
-    if c1 == 2:
-        print("el primer digito es primo")
-    else:
-        if c2 == 2:
-            print("el segundo digito es primo")
-        else:
-            print("ninguno es primo")
+    print("el segundo digito no es primo")
+
+if c2 == 2:
+    print("el segundo digito es primo")
+else:
+    print("el segundo digito no es primo")
