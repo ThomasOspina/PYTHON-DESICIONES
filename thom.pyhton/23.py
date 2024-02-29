@@ -28,14 +28,18 @@ if num > 99 and num < 1000:
         z = z + 1 
 
     if c1 == 2:
-        print("el primer digito es primo")   
+        print("el primer digito es primo")
+    else:
+        print("el primer digito no es primo")   
 
     if c2 == 2:
-        print("el segundo digito es primo") 
+        print("el segundo digito es primo")
+    else:
+        print("el segundo digito no es primo") 
 
     if c3 == 2:
         print("el tercer digito es primo")
     else:
-        print("no tiene primos")           
+        print("el tercer digito no es primo")           
 else:
     print("no tiene tres digitos")
