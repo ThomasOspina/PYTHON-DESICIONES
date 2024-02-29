@@ -14,19 +14,22 @@ if num > 9 and num < 100:
     
     x = 1
     c = 0
-    while x <= num:
-        if num % x == 0:
+    while x <= suma:
+        if suma % x == 0:
             c = c + 1
         x = x + 1
 
-    if c == 2 and num < 10:
-        print(num,"es primo y menor a 10")
-        print(dig1)
+    if c == 2 and suma < 10:
+        print(suma,"es primo y menor a 10")
+        print("el primer digito del numero es",dig1)
+    else:
+        print(suma,"no es primo y menor a 10")
 
     if num % 5 == 0 and num < 30:
         print(num,"es multiplo de 5 y menor a 30")
-        print(dig2)        
+        print(dig2)
+    else:
+        print(num,"no es multiplo de 5 y menor a 30")        
 else:
     print("no tiene dos digitos")
-
     
