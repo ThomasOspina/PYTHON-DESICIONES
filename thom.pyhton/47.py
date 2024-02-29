@@ -64,6 +64,5 @@ else:
         print("numeros separados",num1,num2)
         separar(num1)
         separar(num2)
-
     else:
         print("la diferencia no termina en 4")
