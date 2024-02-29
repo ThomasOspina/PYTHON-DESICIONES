@@ -2,7 +2,7 @@
 
 num = int(input("digite un numero"))
 
-if num > 0 and num < 51:
+if num > 0 and num < 50:
     print("es positivo y menor que 50")
     x = 1
     c = 0
