@@ -7,5 +7,5 @@ for x in range(0,10):
     lista.append(n)
     
 menor = 0    
-for x in lista:
+
     
